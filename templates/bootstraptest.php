@@ -85,7 +85,6 @@
   <body>
 <main>
   <h1 class="visually-hidden">Headers examples</h1>
-<div class="b-example-divider"></div>
 
   <header class="p-3 text-bg-primary">
     <div class="container">

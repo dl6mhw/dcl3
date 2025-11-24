@@ -13,7 +13,7 @@ require_once "../lib/dl6mhw.php";
 
 print_r($argv);
 
-$conteste=array('10m','ft4','hsw','shortry','ukw','waecw','waessb','waertty','xmas');
+$conteste=array('10m','ac','ft4','hsw','shortry','ukw','waecw','waessb','wag','waertty','xmas');
 if (isset($argv[1])) $contest=$argv[1]; else $contest=''; 
 if (!in_array($contest,$conteste)) {
   print "Contest $contest ist nicht in:";
@@ -68,7 +68,7 @@ function importAllLogs($contest,$jahr) {
       FROM logdata LEFT JOIN logentry ON eid = e_id 
                       WHERE $jahr_cond l_valid > 0 
   order by lid desc limit 100000";
-  print "Alle Logs aus Contest \n".$sql."\n";;
+ # print "Alle Logs aus Contest \n".$sql."\n";;
 
   $r=mysqli_query($dblink2,$sql);
 

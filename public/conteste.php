@@ -15,7 +15,7 @@ foreach ($rarr as $tuple) $conteste[]=$tuple['contest'];
 
 #print_r($conteste);
 #Jahre werden mit Schleife generiert
-for ($jahr=2016; $jahr<=2026;$jahr++) $jahre[]=$jahr;
+for ($jahr=2012; $jahr<=2026;$jahr++) $jahre[]=$jahr;
 #print_r($jahre);
 
 $sql='select contest,year(utc) as jahr,count(*) anz from qso group by contest,year(utc)';
