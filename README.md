@@ -1,7 +1,7 @@
 # dcl3
 ## Erste Version des dcl3
 
-- LightWeight DCL - Back ti the roor
+- LightWeight DCL - Back to the roots
 - Primär Contest-QSOs
-- minimales QSO-Tupel
+- minimales QSO-Tupel (kein RST, keine Texte)
 

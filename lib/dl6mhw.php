@@ -1,6 +1,10 @@
 <?php
 require_once "../../../dcl3conf.php";
+require_once('../lib/ParseDownMHW.php');
 
+function pd($inhalt) {
+	return Parsedown::instance()->text($inhalt);	  
+}
 # sorry - I call the file dl6mhw.php to have a place for all the 
 # personal stuff/rotuines/etc 
 

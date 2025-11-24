@@ -14,11 +14,12 @@ require_once('../templates/header.php');
 - Diplomliste ... einfache DB-Tabelle
 - Diplomprogramme (OO)
 - crosscheck
-- EDI-Import - qso um locator erweitern
+- EDI-Import - qso um locator erweitern (+++)
 - ADIF Import
 - Clublog Import
 - LOTW Import
 - Diagramme - Datawarehouse
+- Sprachen (ganz spät)
 
 <h3>Diplome</h3>
 - Diplomliste
