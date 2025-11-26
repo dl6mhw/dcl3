@@ -10,7 +10,11 @@
 
 <p>
 <footer  class="footer navbar-fixed-bottom bg-primary text-bg-primary">
-    <center>DL6MHW - November 2025</center>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li class="nav-link px-2 text-white">DL6MHW - November 2025 | </li>
+          <li><a href="#" class="nav-link px-2 text-white">FAQs | </a></li>
+          <li><a href="../public/about.php" class="nav-link px-2 text-white">About</a></li>
+        </ul>
 </footer>
   </body>
 </html>

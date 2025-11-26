@@ -37,3 +37,24 @@ create table call2dok (
 	ldate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	start date
 );
+
+CREATE TABLE `dcl3`.`antrag` (
+	`id` INT NOT NULL AUTO_INCREMENT , 
+	`did` INT NOT NULL , 
+	`callsign` VARCHAR(16) NOT NULL , 
+	`parameter` VARCHAR(16) NULL , 
+	`status` CHAR(1) NOT NULL DEFAULT '+' , 
+	`qsoListe` TEXT NULL , 
+	`datum` DATE NULL , 
+	`ldate` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , 
+	PRIMARY KEY (`id`)) ENGINE = InnoDB;
+	
+
+CREATE TABLE `dcl3`.`diplom` (
+	`id` INT NOT NULL AUTO_INCREMENT , 
+	`name` VARCHAR(32) NULL , 
+	`kurz` VARCHAR(8) NULL , 
+	`regeln` VARCHAR(1024) NULL , 
+	`manager` VARCHAR(32) NULL DEFAULT 'dl6mhw' , 
+	`ldate` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , 
+	PRIMARY KEY (`id`)) ENGINE = InnoDB;

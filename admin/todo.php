@@ -20,6 +20,7 @@ require_once('../templates/header.php');
 - LOTW Import
 - Diagramme - Datawarehouse
 - Sprachen (ganz spät)
+- Webseiten statisch
 
 <h3>Diplome</h3>
 - Diplomliste
@@ -47,6 +48,7 @@ require_once('../templates/header.php');
 - import mit contest als arg (+++)
 - import mit jahr (+++)
 - import mit zeitmessung und statistik (+++)
+- crosscheck (+--) Bislang nur exakte Zeit
 - dlc3 passwort und rechte (+)
 - darc contest importieren (++-)
 - cq-contest importieren

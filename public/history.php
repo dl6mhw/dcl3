@@ -52,10 +52,16 @@ Private Anmietung eines VServer für das DCL
 - Diplome der DIG
 - Distrikts-Diplome und einige OV-Diplome
 
+## Über Technologien
+
+In den letzten Jahren gab es viele technologische Neuerungen. Das hatte folgende Konsequenzen
+- im DCL findet man einen Mischmasch verschiedener Technologie. Es wurde viel neues ausprobiert.
+- der Stand von 2018 enthielt viele Komponenten, die man aktuell anders, einfacher oder eleganter realisieren würde
+Zudem hat sich die Amateurfunkwelt und die Anwendersicht weiter entwickelt. Zahllose digitale Sendearten müssen betrachte werden. Es gibt Änderungen bei den ADIFs oder auch bei den Rufzeichenstrukturen.
+
+Ein Neustart mit modernen Technologie (Frameworks, MVC)
 ");
 ?>
-<h4>Der Start - März 2021</h4>
-Der erste im Familienurlaub von DL6MHW entwickelte Prototyp wurde auf der Tagung des DXHF-Referats vorgestellt. Mit den Daten der Referatsconteste konnten Diplomanträge generiert werden, die geprüfte QSOs enthielten und somit die Antragstellung durch die OMs/YLs und die Prüfung durch den Diplommanager erleichterten. Der WAE-Manager Hajo, DJ9MH, war sehr begeistert und trieb so das DCL-Projet voran.
 </p>
 
 <h4>Der Start - März 2021</h4>
